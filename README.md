@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#CSI606-2024-02 - Remoto - Proposta de Trabalho Final - Loja da Pain
+# CSI606-2024-02 - Remoto - Proposta de Trabalho Final - Loja da Pain
+Discente: João Guilherme Mendanha Alves
 
-## Getting Started
+##Resumo
+## Resumo
+A ideia principal é construir uma loja virtual de vendas para a organização Pain Gaming. Este portal servirá como uma loja para a venda de produtos da organização e avaliação dos usuários a cerca dos produtos que eles compraram. Além de servir como um controlador de estoque e facilitador da comunicação entre a organização e a comunidade para melhoria dos produtos oferecidos.
 
-First, run the development server:
+###1. Tema
+## 1. Tema
+O trabalho final tem como tema o desenvolvimento de uma loja virtual para venda dos produtos da organização Pain Gaming.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+###2. Escopo
+## 2. Escopo
+Principais funcionalidades:
+Área de administração de produtos
+Cadastro de novos produtos
+Exibição de produtos
+Compra de produtos pelos membros
+Controle de estoque
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###4. Restrições
+## 4. Restrições
+Este trabalho não levará em conta cancelamentos de compras, processamento real de pagamentos, e confirmação de entrega dos produtos por transportadora. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###5. Protótipo
+## 5. Protótipo
+Tela principal: Tela em que serão exibidas os principais produtos e novidadades da organização.
+Tela de exebição de produtos: Essa tela será responsável por exibir todos os produtos que existem, ou os produtos que são selecionados conforme um filtro de busca.
+Tela de pagamento: Tela em que o usuário poderá ver detalhes da sua compra e dar processeguimento com o pagamento.

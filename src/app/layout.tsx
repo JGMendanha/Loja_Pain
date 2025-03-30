@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className='bg-slate-50 h-screen p-16'>
+        <main className=' h-screen p-16'>
           <ImageCarousel />
           {children}
         </main>

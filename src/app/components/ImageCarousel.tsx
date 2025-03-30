@@ -24,7 +24,7 @@ export default function CompactCarousel() {
         className="embla w-[100vw] h-[500px] mx-auto overflow-hidden"
         ref={emblaRef}
       >
-        <div className="embla__container flex h-full bg-slate-50">
+        <div className="embla__container flex h-full">
           {images.map((img, index) => (
             <div 
               className="embla__slide flex-[0_0_100%] min-w-0 relative"
