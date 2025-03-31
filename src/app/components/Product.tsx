@@ -15,7 +15,7 @@ export default function product({product} : ProductProps){
 
             <div className="flex justify-between font-bold my-3 text-gray-100">
                 <p className="w-40 truncate">
-                    {product.title}
+                    {product.name}
                 </p>
                 <p className="text-md text-slate-100">
                     ${product.price}
