@@ -56,6 +56,7 @@ export default function cartDrawer(){
 
                 {
                     useStore.onCheckout === 'checkout' && (
+                        
                         <Checkout/>
                     )
                 }
