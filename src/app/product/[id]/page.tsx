@@ -41,8 +41,8 @@ export default async function ProductPage({params: {id}}: ProductPageParams ){
                         <h1 className="text-2xl font-bold text-slate-100">{product.name}</h1>
                         <h2 className="text-2xl font-bold text-slate-100">{formatPrice(product.price)}</h2>
                     </div>
-                    <div className="pb-4">
-                        <p className="text-slate-100 text-md">{product.description}</p>
+                    <div className="pb-4 max-w-sm">
+                        <p className="text-slate-100 text-md break-words">{product.description}</p>
                     </div>
                     <AddCart product={product}/>
                 </div>

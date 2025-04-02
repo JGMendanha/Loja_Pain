@@ -29,7 +29,7 @@ export default function Navbar() {
           alt="Logo Pain Gaming"
           className="h-8 mr-2"
         />
-        paiN Gaming
+        paiN Gaming Store
       </Link>
 
       <div className='flex items-center gap-10'>

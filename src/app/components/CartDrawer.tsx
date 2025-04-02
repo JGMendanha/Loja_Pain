@@ -11,13 +11,13 @@ export default function cartDrawer(){
     return(
         <div onClick={() => useStore.toggleCart()} className='fixed w-full h-screen bg-black/25 left-0 top-0 z-50'>
             <div onClick={(e) => e.stopPropagation()}  className='absolute bg-slate-950 right-0 top-0 w-1/3.5 h-screen p-8 overflow-y-scroll'>
-                <button onClick={() => useStore.toggleCart()} className="font-bold text-sm text-slate-100 border p-4">
-                    Comprar mais items
-                </button>
-                <div className="border-t border-slate-100 my-4"></div>
                 {
                     useStore.onCheckout === 'cart' && (
                         <>
+                            <button onClick={() => useStore.toggleCart()} className="font-bold text-sm text-slate-100 border p-4">
+                                Comprar mais items
+                            </button>
+                            <div className="border-t border-slate-100 my-4"></div>
                             {
                                 useStore.cart.map((item) =>(
                                     <div key={item.id} className="flex gap-4 py-4">
