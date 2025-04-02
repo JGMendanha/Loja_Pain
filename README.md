@@ -27,3 +27,6 @@ Este trabalho não levará em conta cancelamentos de compras, processamento real
 Tela principal: Tela em que serão exibidas os principais produtos e novidadades da organização.
 Tela de exebição de produtos: Essa tela será responsável por exibir todos os produtos que existem, ou os produtos que são selecionados conforme um filtro de busca.
 Tela de pagamento: Tela em que o usuário poderá ver detalhes da sua compra e dar processeguimento com o pagamento.
+
+## 6. Resultados
+Toda a aplicação foi desenvolvida usando Next, Tailwind CSS, Zustand, TypeScript, React. O uso da ferramenta Stripe dedicadas a e-commercer e da ferramenta autenticação Clerck foram utilizados de maneira eficiente e coesa sendo cruciais para o desenvolvimento da parte de armazenamento das informações de produto e usuário. Todas as telas são funcionais e as funcionalidades implementadas funcionam corretamente. Toda a estrutura do projeto esta componentizada e as páginas comunicam entre si. Infelimente o controle de ordens de pagamento não foi possível ser desenvolvido por limitações da versão gratuita do Stripe. No geral o desenvolvimento foi um sucesso e as tecnologias foram bem implementadas. 
